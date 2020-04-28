@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+void penjumlahan (int r, int t)
+{
+	cout << (r + t);
+}
+void pengurangan (int a, int b)
+{
+	cout << (a - b);
+}
+void perkalian (int angka_2, int angka_4)
+{
+	cout << (angka_2 * angka_4);
+}
+double pembagian (double s, double d)
+{
+	cout << (s / d);
+}
+int main ()
+{
+	cout << "Hasil function penjumlahan adalah " ;
+	penjumlahan ( 2, 4 );
+	cout << endl;
+	cout << "Hasil function pengurangan adalah " ;
+	pengurangan ( 4, 2 );
+	cout << endl;
+	cout << "Hasil function perkalian adalah " ;
+	perkalian ( 2, 2 );
+	cout << endl;
+	cout << "Hasil function pembagian adalah " ;
+	pembagian (50, 25);
+	return 0;
+}
